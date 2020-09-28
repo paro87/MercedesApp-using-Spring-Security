@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mercedes App: Error</title>
+    <link href="../static/css/bootstrap.css" rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+    <style>
+        body {
+            padding-top: 60px;
+        }
+        .navbar-inverse {
+            background-color: #222233;
+        }
+    </style>
+</head>
+<body class="py-1 pb-5">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid mx-5">
+        <p class="navbar-brand text-warning mx-5 my-0" >Mercedes App</p>
+    </div>
+
+</nav>
+<div class="container col-md-10 my-5">
+    <h1>Error 500!</h1>
+    <p>
+        An error occurred on the server side, e.g. a required service did not provide a valid response!
+        Go back to <a href="/">Authorization page</a>.
+    </p>
+
+</div>
+<div class="container">
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../static/js/bootstrap.js" th:href="@{/js/bootstrap.js}"></script>
+</body>
+</html>
+
+
+
+
